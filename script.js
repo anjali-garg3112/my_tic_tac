@@ -1,4 +1,4 @@
-console.log("Welcome to Tic Tac Toe")
+
 
 let audioTurn = new Audio("ting.mp3")
 
