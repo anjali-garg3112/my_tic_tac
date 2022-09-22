@@ -49,6 +49,7 @@ Array.from(boxes).forEach(element =>{
             checkWin();
             
             if (!isgameover){
+                // Turn for X or 0
                 document.getElementsByClassName("info")[0].innerText  = "Turn for " + turn;
                    
             } 
