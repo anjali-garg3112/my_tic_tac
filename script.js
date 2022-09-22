@@ -44,6 +44,8 @@ Array.from(boxes).forEach(element =>{
             boxtext.innerText = turn;
             turn = changeTurn();
             audioTurn.play();
+            
+            // check whether someone has won the game or not
             checkWin();
             
             if (!isgameover){
