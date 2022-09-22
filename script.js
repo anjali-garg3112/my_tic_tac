@@ -1,7 +1,7 @@
 
-
 let audioTurn = new Audio("ting.mp3")
 
+// setting initial value to be X
 let turn = "X"
 let isgameover = false;
 
